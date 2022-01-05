@@ -333,7 +333,7 @@ img{
 }
 
 .newsletter-info{
-    flex: 1 1 200px;
+    flex: 1 1 240px;
     margin: 0 10px;
 }
 
@@ -368,10 +368,11 @@ img{
     padding: 10px;
     margin: 0px;
     border-radius:0px;
+    padding: 15px 10px;
 }
 
 .newsletter-form button{
-    flex: 1 1 200px;
+    flex: 1 1 260px;
     font-family: 'Nunito';
     font-size: 2em;
     font-weight: bold;
@@ -382,6 +383,22 @@ img{
     cursor: pointer;
     border: 0px; 
     padding: 15px 10px;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    background:#2c70ff;
+    height: 150px;
+    align-items:center;
+}
+
+.footer p{
+    flex: 1;
+    text-align: center;
+    font-size: 1.5em;
+    color: #122ab2;
 }
 
 
